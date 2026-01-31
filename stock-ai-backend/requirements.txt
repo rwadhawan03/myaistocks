@@ -1,0 +1,12 @@
+fastapi==0.128.0
+uvicorn==0.40.0
+python-dotenv==1.2.1
+openai==2.16.0
+yfinance==1.1.0
+pandas==3.0.0
+numpy==2.4.1
+apscheduler==3.11.2
+aiosmtplib==5.1.0
+python-multipart==0.0.22
+pydantic[email]==2.12.5
+httpx==0.28.1
