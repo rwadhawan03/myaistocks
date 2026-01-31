@@ -1,5 +1,9 @@
 # Stock AI Analyst - Architecture Documentation
 
+## Architecture Diagram
+
+![Stock AI Analyst Architecture](docs/architecture-diagram.svg)
+
 ## System Overview
 
 Stock AI Analyst is an AI-powered stock analysis application that combines real-time financial data from yfinance with OpenAI's GPT-4o model to provide intelligent market insights, stock recommendations, and automated alerts. The system follows a client-server architecture with a FastAPI backend and a vanilla JavaScript frontend.
