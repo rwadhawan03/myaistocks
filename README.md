@@ -1,0 +1,2 @@
+# myaistocks
+AI stock analysis
