@@ -20,6 +20,17 @@ python-multipart = "^0.0.22"
 pydantic = {extras = ["email"], version = "^2.12.5"}
 httpx = "^0.28.1"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-asyncio = "^0.23.0"
+pytest-cov = "^4.1.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
 
 [build-system]
 requires = ["poetry-core"]
